@@ -1,13 +1,12 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-
 # Set name of the theme to load.
+
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="kardan"
 #"robbyrussell"
-
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -75,6 +74,6 @@ export PATH="/opt/chefdk/bin:/opt/chef/embedded/bin:/opt/chefdk/bin:/usr/bin:/bi
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 for f in ~/.bash_profile.d/*; do
-  echo "Loading... "$f
-   . $f
+echo "Loading... "$f
+. $f
 done

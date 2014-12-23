@@ -1,0 +1,4 @@
+export PATH=/opt/chefdk/bin:/opt/chefdk/embedded/bin:$PATH
+
+## Delivery Related
+export PATH=/Users/larryeichenbaum/Chef/Delivery/CLI:$PATH
